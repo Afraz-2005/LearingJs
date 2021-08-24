@@ -23,10 +23,11 @@ function reset(){
 }
 
 function checkNegative(){
+    birthYear;
     if (birthYear > year) {
         textAnswer = `Invalid input! it's ${year} now`;
     }
-    if (birtYear == "") {
+    if (birthYear == "") {
         console.log('Empty input from user');
     }
 }
